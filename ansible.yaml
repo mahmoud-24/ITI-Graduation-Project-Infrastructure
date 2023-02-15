@@ -9,4 +9,3 @@
 
     - name: Task -3 Deploying jenkins & loadbalancer servies
       command: kubectl apply -f /home/mahmoud/test/jenkins/
-
