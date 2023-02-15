@@ -8,4 +8,4 @@
       shell: kubectl create namespace jenkins
 
     - name: Task -3 Deploying jenkins & loadbalancer servies
-      command: kubectl apply -f /home/mahmoud/test/jenkins/
+      command: kubectl apply -f /home/mahmoud/ans-file/jenkins/
