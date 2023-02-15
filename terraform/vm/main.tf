@@ -21,9 +21,9 @@ resource "google_compute_instance" "private-vm" {
                                     sudo apt-get update && sudo apt-get install -y google-cloud-cli
                                     sudo apt-get install kubectl -y
                                     sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin -y
-                                    sudo git clone https://github.com/mahmoud-24/ITI-Graduation-Project-Infrastructure /home/mahmoud/test
+                                    sudo git clone https://github.com/mahmoud-24/ITI-Graduation-Project-Infrastructure /home/mahmoud/ans-file
                                     sudo apt-get install -y ansible
-                                    sudo ansible-playbook /home/mahmoud/test/ansible.yaml
+                                    sudo ansible-playbook /home/mahmoud/ans-file/ansible.yaml
                                  EOF
 
   
