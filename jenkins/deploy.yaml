@@ -43,7 +43,6 @@ spec:
           image: docker
           command: ["cp","/usr/local/bin/docker", "/opt/tmp"]
        
-            
           volumeMounts:  
             - name: docker
               mountPath: /opt/tmp
