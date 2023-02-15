@@ -13,20 +13,7 @@ resource "google_compute_instance" "private-vm" {
       size  = 50
     }
   }
-   
-#   #  depends_on = [
-#   #   google_container_cluster.private_cluster
-#   #  , google_container_node_pool.private-cluster_node_pool
-#   # ]
-#   variable "storage_account_depends_on" {
-#   # the value doesn't matter; we're just using this variable
-#   # to propagate dependencies.
-#   type    = any
-#   default = []
-# }
-# depends_on = [var.storage_account_depends_on]
-
-
+  
    metadata_startup_script = <<-EOF
                                     sudo apt install -y apt-transport-https ca-certificates gnupg
                                     echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
