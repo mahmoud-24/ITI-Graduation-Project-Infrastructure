@@ -13,22 +13,27 @@ Deploy a Python web application on GKE using CI/CD Jenkins Pipeline using the fo
  - Terraform          
 Infrastructure as a code to execute the app Infrastructure.
 
+
 ![home_Page Image](./final-pictures/jenkins.png)
  - Jenkins            
 An open source automation server which we will use to build, test, and deploy our app or software.
+
 
 ![home_Page Image](./final-pictures/docker.png)
  - Docker             
  The platform which we use to build the app image.
 
+
 ![home_Page Image](./final-pictures/ansible.png)
  - Ansible            
 provision the underlying infrastructure of your environment, virtualized hosts and hypervisors.
 
+
 ![home_Page Image](./final-pictures/k8s.png)
  - Kubernates         
  Kubernetes automates operational tasks of container management.
- 
+
+
 ![home_Page Image](./final-pictures/gcp.png)
  - GCP                
 The Google cloud provider which we will use it through our project.
