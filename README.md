@@ -69,7 +69,10 @@ metadata_startup_script = <<-EOF
 ### Ansible playbook Tasks
 ![home_Page Image](./final-pictures/ans-yaml.png)
 
-## Jenkins link : http://35.230.188.184:8080
+## Use Link From Console To Login Jenkins
+```
+kubectl get all -n jenkins
+```
 ![home_Page Image](./final-pictures/jen-browser.png)
 
 ### Get Jenkins Password Connect To VM
@@ -77,5 +80,6 @@ metadata_startup_script = <<-EOF
 kubectl exec --namespace jenkins -it svc/jenkins-service -c jenkins -- /bin/cat /var/jenkins_home/secrets/initialAdminPassword && echo
 ```
 
+### Use Jenkins on The GKE cluster, Follow The Connected Repository
 
-
+## https://github.com/mahmoud-24/ITI-Graduation-Project-app
