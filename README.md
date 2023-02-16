@@ -9,23 +9,28 @@ Deploy a Python web application on GKE using CI/CD Jenkins Pipeline using the fo
 ![home_Page Image](./final-pictures/proj.png)
 
 ### Used Tools
-
- - Terraform          ![home_Page Image](./final-pictures/terraform.png)
+ ![home_Page Image](./final-pictures/terraform.png)
+ - Terraform          
 Infrastructure as a code to execute the app Infrastructure.
 
- - Jenkins            ![home_Page Image](./final-pictures/jenkins.png)
+![home_Page Image](./final-pictures/jenkins.png)
+ - Jenkins            
 An open source automation server which we will use to build, test, and deploy our app or software.
 
- - Docker             ![home_Page Image](./final-pictures/docker.png)
+![home_Page Image](./final-pictures/docker.png)
+ - Docker             
  The platform which we use to build the app image.
 
- - Ansible            ![home_Page Image](./final-pictures/ansible.png)
+![home_Page Image](./final-pictures/ansible.png)
+ - Ansible            
 provision the underlying infrastructure of your environment, virtualized hosts and hypervisors.
 
- - Kubernates         ![home_Page Image](./final-pictures/k8s.png)
+![home_Page Image](./final-pictures/k8s.png)
+ - Kubernates         
  Kubernetes automates operational tasks of container management.
-
- - GCP                ![home_Page Image](./final-pictures/gcp.png)
+ 
+![home_Page Image](./final-pictures/gcp.png)
+ - GCP                
 The Google cloud provider which we will use it through our project.
 
 ### provision infrastructure using terraform
@@ -56,7 +61,7 @@ metadata_startup_script = <<-EOF
                                  EOF
 ```
 ### Ansible playbook Tasks
-![home_Page Image](./final-pictures/terr-ans-yaml.png)
+![home_Page Image](./final-pictures/ans-yaml.png)
 
 ## Jenkins link : http://35.230.188.184:8080
 ![home_Page Image](./final-pictures/jen-browser.png)
